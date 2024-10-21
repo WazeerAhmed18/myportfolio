@@ -11,7 +11,7 @@ const MouseCircle = () => {
         x: event.clientX,
         y: event.clientY,
       };
-      console.log('Mouse Position:', newPosition); // Debugging line
+      // console.log('Mouse Position:', newPosition); // Debugging line
       setPosition(newPosition);
     };
 

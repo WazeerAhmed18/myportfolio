@@ -4,7 +4,7 @@ import CountUp from "react-countup";
 import ScrollTrigger from 'react-scroll-trigger';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { useSpring, animated } from 'react-spring';
+import { useSpring } from 'react-spring';
 
 const skillsData = [
   { name: "HTML", percentage: 97 },
