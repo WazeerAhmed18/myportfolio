@@ -51,6 +51,7 @@ const About = () => {
             <span className="text-green">
               <span>
                 SKILLS
+                
               </span>
             </span>
           </div>

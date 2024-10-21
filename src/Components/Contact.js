@@ -9,6 +9,7 @@ import 'aos/dist/aos.css';
 import { useSpring, animated } from 'react-spring';
 import React, { useState } from "react";
 
+
 const Contact = () => {
   AOS.init();
   const [triggered, setTriggered] = useState(false);

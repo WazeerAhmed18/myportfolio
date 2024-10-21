@@ -9,6 +9,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Typewriter from 'typewriter-effect/dist/core';
 
+
 import FileDownloadIcon from '@mui/icons-material/FileDownload';
 import FileDownloadDoneIcon from '@mui/icons-material/FileDownloadDone';
 

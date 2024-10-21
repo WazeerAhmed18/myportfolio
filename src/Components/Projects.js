@@ -10,6 +10,7 @@ import ECom from '../assets/ecom.jpg';
 import NetFlix from '../assets/net.png';
 import Image from 'next/image';
 
+
 AOS.init();
 
 const HoverExpandCard = ({ image, title, href, ...props }) => {

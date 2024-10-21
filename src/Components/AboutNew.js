@@ -10,6 +10,7 @@ const AboutNew = () => {
 
   const [triggered, setTriggered] = useState(false);
 
+  
   const onEnterViewport = () => {
     setTriggered(true);
   };

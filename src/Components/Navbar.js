@@ -12,6 +12,8 @@ const Navbar = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+
+  
   return (
     <header className='flex w-full justify-between items-center px-10 py-5 bg-gray-950 shadow-2xl sticky top-0 z-50'>
       <a 
