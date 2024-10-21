@@ -133,6 +133,7 @@ const Hero = () => {
           className='w-full h-full object-cover hover:scale-105 transition-transform duration-500 ease-in-out'
           src={heroImg}
           alt="Hero"
+          priority
         />
       </div>
     </div>
