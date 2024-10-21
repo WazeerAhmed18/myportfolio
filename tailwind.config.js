@@ -10,6 +10,10 @@ module.exports = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        green: '#00FF00',
+      },
+      fontFamily: {
+        'Poppins':['Poppins', 'sans-serif']
       },
     },
   },
