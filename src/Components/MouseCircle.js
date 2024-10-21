@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React, { useEffect, useState } from 'react';
 import './MouseCircle.css'; // Import the CSS for the circle
 
@@ -7,10 +7,12 @@ const MouseCircle = () => {
 
   useEffect(() => {
     const handleMouseMove = (event) => {
-      setPosition({
+      const newPosition = {
         x: event.clientX,
         y: event.clientY,
-      });
+      };
+      console.log('Mouse Position:', newPosition); // Debugging line
+      setPosition(newPosition);
     };
 
     window.addEventListener('mousemove', handleMouseMove);
