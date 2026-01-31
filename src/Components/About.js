@@ -8,13 +8,16 @@ import { useSpring } from 'react-spring';
 
 const skillsData = [
   { name: "HTML", percentage: 97 },
-  { name: "CSS", percentage: 95 },
-  { name: "Javascript", percentage: 90 },
-  { name: "React JS", percentage: 93 },
-  { name: "Next JS", percentage: 89 },
+  { name: "CSS", percentage: 97 },
+  { name: "JavaScript", percentage: 97 },
+  { name: "TypeScript", percentage: 97 },
+  { name: "React JS", percentage: 95 },
+  { name: "Next JS", percentage: 90 },
   { name: "Tailwind CSS", percentage: 94 },
-  { name: "Bootstrap", percentage: 93 },
-  { name: "Figma", percentage: 96 },
+  { name: "Bootstrap", percentage: 98 },
+  // { name: "Figma", percentage: 96 },
+  { name: "Node JS", percentage: 92 },
+  { name: "MySql", percentage: 92 },
 ];
 
 const About = () => {

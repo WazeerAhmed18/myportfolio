@@ -20,7 +20,7 @@ const Hero = () => {
 
   AOS.init();
   const [index, setIndex] = useState(0);
-  const subtitles = ["FRONTEND", "REACT JS", "UX UI"];
+  const subtitles = ["FRONTEND", "REACT JS", "UI" ,"FULLSTACK"];
 
   const [isDownloaded, setIsDownloaded] = useState(false);
 
@@ -109,7 +109,7 @@ const Hero = () => {
       className='mt-6 flex flex-row items-center text-base sm:text-sm'
     >
       <a
-        href="/CV.pdf"
+        href="/CV1.pdf"
         download="Wazeer_Ahmed_CV.pdf"
         onClick={handleDownload} // Handle click to update the state
         className="relative inline-flex items-center justify-start px-4 py-2 text-sm overflow-hidden font-semibold transition-all md:text-base bg-white rounded hover:bg-white group"
